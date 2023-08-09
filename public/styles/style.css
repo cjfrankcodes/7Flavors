@@ -1,0 +1,36 @@
+.logo-line{
+    background-color: white !important;
+    display: flex;
+    justify-content: center;
+}
+
+.logo-img-container{
+    width: 100px;
+    display: flex;
+}
+
+.logo-img{
+    width: 200px;
+}
+
+.navbar-toggler{
+    margin-left: 300px;
+    color: #9A3737 !important;
+    border-color: #9A3737;
+    border-width: 1px;
+}
+
+.landing-container{
+    margin-top: 0% !important;
+    display: flex;
+    justify-content: center;
+}
+
+.landing-bg{
+    width: 980px !important;
+    height: 338px !important;
+    background-image: url("../imgs/IMG_0103.jpg")!important;
+    background-repeat: no-repeat;
+    background-size: 980px 338px;
+    background-color: #9A3737;
+}
