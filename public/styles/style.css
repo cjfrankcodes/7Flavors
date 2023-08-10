@@ -7,6 +7,7 @@ body{
     background-color: white !important;
     display: flex;
     justify-content: center;
+    padding-top: 0px;
 }
 
 .logo-img-container{
@@ -34,11 +35,30 @@ body{
 }
 
 .landing-bg{
-    width: 980px !important;
-    height: 338px !important;
-    background-image: url("../imgs/sea-intro.jpg")!important;
+    height: 70vh;
+    background-image: url("../imgs/sea-intro.jpg");
     background-repeat: no-repeat;
-    background-size: 980px 338px;
+    background-size: 100vw 70vh;
+    margin-bottom: 30px;
+}
+
+.landing-h1-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    text-align: center;
+}
+
+.landing-h1{
+    font-size: 60px;
+    color: white;
+    font-family: 'Roboto Condensed', sans-serif;
+    letter-spacing: 10px;
+}
+
+.landing-h1-margin{
+    margin-top: 40vh;
+    margin-bottom: 1vh;
 }
 
 /* Home CSS End */
@@ -54,32 +74,88 @@ body{
 /* About CSS Start */
 
 .about-bg{
-    height: 60vh;
+    height: 70vh;
     background-image: url("../imgs/sea-intro.jpg");
     background-repeat: no-repeat;
-    background-size: 100vw 60vh;
+    background-size: 100vw 70vh;
     margin-bottom: 30px;
 }
 
-.about-text{
+.about-h1-text{
     display: flex;
     justify-content: center;
+    text-align: center;
 }
 
 .about-h1{
     margin-top: 40vh;
-    font-size: 80px;
+    font-size: 75px;
     color: white;
     font-family: 'Playfair Display', serif;
+    letter-spacing: 8px;
+}
+
+.about-img{
+    border-radius: 100%;
+    height: 66vh;
 }
 
 .featurette-divider{
     color: #9A3737;
-    padding-bottom: 30px;
 }
 
-.about-head{
-    padding-bottom: 25px;
+.about-h2-text{
+    width: 10vw;
+    letter-spacing: 2px;
+}
+
+.about-text{
+    display: flex;
+    align-items: center;
+}
+
+.about-h2{
+    margin-right: 70px;
 }
 
 /* About CSS End */
+@media (max-width:425px){
+    /* Gallery Media Settings Start */
+    #carouselExample{
+        margin-top: 10vh;
+    }
+    .gallery-img{
+        height: 45vh !important;
+    }
+    /* Gallery Media Settings End */
+
+    /* About Media Settings Start */
+    .about-img{
+        height: 400px;
+        width: 80vw;
+        margin-left: 5vw;
+    }
+    .about-h1{
+        margin-top: 30vh;
+        font-size: 50px;
+        color: white;
+        font-family: 'Playfair Display', serif;
+        letter-spacing: 8px;
+    }
+    .about-bg{
+        height: 50vh;
+        background-size: 100vw 50vh;
+        margin-bottom: none;
+    }
+    .about-h2-media{
+        width: 50vw !important;
+    }
+    .about-p-media{
+        width: 50vw !important;
+    }
+    .about-h2-media-last{
+        padding-left: 3vw;
+        width: 25vw !important;
+    }
+    /* About Media Settings End */
+}
