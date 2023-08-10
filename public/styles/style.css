@@ -1,3 +1,8 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Heading CSS Start */
 .logo-line{
     background-color: white !important;
     display: flex;
@@ -19,7 +24,9 @@
     border-color: #9A3737;
     border-width: 1px;
 }
+/* Heading CSS End */
 
+/* Home CSS Start */
 .landing-container{
     margin-top: 0% !important;
     display: flex;
@@ -29,8 +36,50 @@
 .landing-bg{
     width: 980px !important;
     height: 338px !important;
-    background-image: url("../imgs/IMG_0103.jpg")!important;
+    background-image: url("../imgs/sea-intro.jpg")!important;
     background-repeat: no-repeat;
     background-size: 980px 338px;
-    background-color: #9A3737;
 }
+
+/* Home CSS End */
+
+/* Gallery CSS Start */
+
+.gallery-img{
+    height: 81vh !important;
+}
+
+/* Gallery CSS End */
+
+/* About CSS Start */
+
+.about-bg{
+    height: 60vh;
+    background-image: url("../imgs/sea-intro.jpg");
+    background-repeat: no-repeat;
+    background-size: 100vw 60vh;
+    margin-bottom: 30px;
+}
+
+.about-text{
+    display: flex;
+    justify-content: center;
+}
+
+.about-h1{
+    margin-top: 40vh;
+    font-size: 80px;
+    color: white;
+    font-family: 'Playfair Display', serif;
+}
+
+.featurette-divider{
+    color: #9A3737;
+    padding-bottom: 30px;
+}
+
+.about-head{
+    padding-bottom: 25px;
+}
+
+/* About CSS End */
