@@ -19,6 +19,26 @@ body{
     width: 200px;
 }
 
+.nav-link{
+    transition: color .3s ease-in-out
+}
+
+.nav-link:hover{
+    color: #9A3737;
+}
+
+.dropdown-item{
+    transition: color .3s ease-in-out
+}
+
+.dropdown-item:hover{
+    color: #9A3737;
+}
+
+.dropdown-menu{
+    border: none;
+}
+
 .navbar-toggler{
     margin-left: 300px;
     color: #9A3737 !important;
@@ -86,6 +106,28 @@ body{
     font-size: 0px;
 }
 
+.landing-info-button{
+    margin-top: 50px;
+}
+
+.landing-info-button-text{
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 10px;
+    width: 50vw;
+    letter-spacing: 3px !important;
+}
+
+  .services-card-button{
+    background-color: #9A3737;
+    color: white;
+    letter-spacing: 2px;
+  }
+
+  .card-container{
+    margin-top: 50px;
+  }
+
 /* Home CSS End */
 
 /* Gallery CSS Start */
@@ -149,6 +191,9 @@ body{
 
 /* About CSS End */
 @media (max-width:430px){
+    .ml-100{
+        margin-left: 25vw;
+    }
     /* Landing Media Settings Start */
     .landing-bg{
         height: 40vh;
@@ -179,6 +224,8 @@ body{
     .landing-h1{
         opacity: 0%;
     }
+
+
     /* Landing Media Settings End */
 
     /* Gallery Media Settings Start */

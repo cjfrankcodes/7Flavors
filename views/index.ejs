@@ -1,5 +1,5 @@
 <%- include('./partials/header.ejs') %>
-
+<div class="ml-100">
 <div class="landing-bg d-block w-100">
   <div class="landing-h1-text">
       <h1 class="landing-h1-margin landing-h1">7 Flavors</h1>
@@ -30,8 +30,10 @@
 
 <div class="pricing-header p-3 pb-md-4 mx-auto text-center">
   <h1 class="display-4 fw-normal text-body-emphasis">Who's my chef?</h1>
-  <p class="fs-5 text-body-secondary" style="margin-top: 25px;">Meet Chef John Hernandez, our culinary virtuoso trained at Auguste Escoffier School of Culinary Arts. Elevating every flavor, every moment.</p>
-  <a href="/views/about.ejs"> Get to know Chef John here</a>
+  <p class="fs-5 text-body-secondary" style="margin-top: 25px;">Chef John Hernandez is our culinary virtuoso trained at Auguste Escoffier School of Culinary Arts. Elevating every flavor, every moment.</p>
+    <div class="landing-info-button">
+      <a class="landing-info-button-text w-20 btn btn-lg services-card-button" href="/about">Learn More About Chef John</a>
+    </div>
 </div>
 
 <div class="landing-knife">
@@ -42,6 +44,41 @@
 
 <div class="pricing-header p-3 pb-md-4 mx-auto text-center">
   <h1 class="display-4 fw-normal text-body-emphasis">What services do you offer?</h1>
-  <p class="fs-5 text-body-secondary" style="margin-top: 25px;">Meet Chef John Hernandez, our culinary virtuoso trained at Auguste Escoffier School of Culinary Arts. Elevating every flavor, every moment.</p>
+  <div class="row row-cols-1 row-cols-md-3 mb-3 text-center card-container">
+    <div class="col">
+      <div class="card mb-4 rounded-3 shadow-sm">
+        <div class="card-header py-3">
+          <h4 class="my-0 fw-normal">Brunch</h4>
+        </div>
+        <div class="card-body">
+          <p>Elevate your mornings with a touch of elegance and a burst of international flavors. Our expert chef curates a delectable spread that takes you on a delectable culinary journey across continents. Whether it's a leisurely weekend gathering or a special celebration, our brunch parties infuse an international twist into your morning affair.</p>
+          <a href="/views/brunch.ejs" class="w-100 btn btn-lg services-card-button" >Example Brunch Menu</a>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card mb-4 rounded-3 shadow-sm">
+        <div class="card-header py-3">
+          <h4 class="my-0 fw-normal">Dinner</h4>
+        </div>
+        <div class="card-body">
+          <p>Dive into a world of culinary artistry as we create bespoke dining experiences right in the comfort of your home. Our skilled chef crafts meticulously designed menus that traverse continents, ensuring every course is a symphony of tastes and textures. Unveil the magic of world cuisines through our dinner parties that are certain to leave your guests in awe.</p>
+          <a href="/views/brunch.ejs" class="w-100 btn btn-lg services-card-button" >Example Dinner Menu</a>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card mb-4 rounded-3 shadow-sm">
+        <div class="card-header py-3">
+          <h4 class="my-0 fw-normal">Marijuana Infused Dinner</h4>
+        </div>
+        <div class="card-body">
+          <p>Experience a one-of-a-kind dining escapade that merges gourmet cuisine with the subtle delights of marijuana infusion. Our exclusive marijuana-infused dinner parties redefine indulgence, harmonizing carefully selected strains with meticulously prepared dishes. Delight in an extraordinary sensory journey that harmonizes flavor and relaxation.</p>
+          <a href="/views/brunch.ejs" class="w-100 btn btn-lg services-card-button" >Example Marijuana Infused Menu</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
 </div>
 <%- include('./partials/footer.ejs') %>
