@@ -2,6 +2,11 @@ body{
     font-family: 'Quicksand', sans-serif;
 }
 
+.btn-lg{
+    --bs-btn-hover-border-color: #9A3737;
+    --bs-btn-hover-color: #9A3737;
+}
+
 /* Heading CSS Start */
 .logo-line{
     background-color: white !important;
@@ -128,6 +133,10 @@ body{
     margin-top: 50px;
   }
 
+  .card-header{
+    color: #9A3737;
+  }
+
 /* Home CSS End */
 
 /* Gallery CSS Start */
@@ -135,6 +144,12 @@ body{
 .gallery-img{
     height: 81vh !important;
 }
+
+.gallery-bg{
+    background-color: white !important;
+}
+
+
 
 /* Gallery CSS End */
 

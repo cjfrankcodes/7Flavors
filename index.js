@@ -16,7 +16,7 @@ app.get("/about", (req, res) =>{
 })
 
 app.get("/gallery", (req, res) =>{
-    res.render("gallery.ejs")
+    res.render("gallery2.ejs")
 })
 
 app.get("/booking", (req, res) =>{
