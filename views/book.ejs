@@ -1,3 +1,82 @@
 <%- include('./partials/header.ejs') %>
-<h1>book</h1>
+<div class="form-container">
+    <form>
+        <!-- Name input -->
+        <div class="form-outline mb-4 text-input">
+            <label class="form-label" for="full-name">Full Name:</label>
+            <input type="text" id="full-name" class="form-control" />
+        </div>
+    
+        <!-- Email input -->
+        <div class="form-outline mb-4 text-input">
+            <label class="form-label" for="email-address">Email address:</label>
+            <input type="email" id="email-address" class="form-control" />
+        </div>
+
+        <!-- Phone Input -->
+        
+        <div class="form-outline mb-4 text-input">
+            <label class="form-label" for="phone-number">Phone number</label>
+            <input type="text" id="phone" class="form-control phone-number" name="phone" />
+        </div>
+
+        <!-- Date Picker -->
+        <div class="form-outline mb-4 date-picker">
+            <label class="form-label" for="start">Event Date:</label>
+            <% var date = new Date() %>
+            <% var month = date.getMonth() + 1 %>
+            <% month = month.toString() %>
+            <% if (month === "1" || month === "2" || month === "3" || month === "4" || month === "5" || month === "6" || month === "7" || month === "8" || month === "9"){month = "0"+ month} %>
+            <input type="date" id="start" class="form-control" name="trip-start" value="<%- date.getFullYear() %>-<%- month %>-<%- date.getDate() %>" min="<%- date.getFullYear() %>-<%- month %>-<%- date.getDate() %>" max="2024-12-31" />
+        </div>
+
+        <!-- Service picker -->
+
+        <div class="form-outline mb-4">
+            <label class="form-label" for="guest-count">Desired Service:</label>
+            <select class="form-select form-select-md mb-3 service-selector" id="guest-count" aria-label="Large select example">
+                <option value="bruch">Brunch</option>
+                <option value="dinner">Dinner</option>
+                <option value="420-dinner">Marijuana Infused Dinner</option>
+            </select>
+        </div>
+
+        <!-- Guest Count Input -->
+        <div class="form-outline mb-4">
+            <label class="form-label" for="guest-count">Estimated Guest Count:</label>
+            <select class="form-select form-select-md mb-3 select-container" id="guest-count" aria-label="Large select example">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+                <option value="1">11</option>
+                <option value="2">12</option>
+                <option value="3">13</option>
+                <option value="4">14</option>
+                <option value="5">15</option>
+                <option value="6">16</option>
+                <option value="7">17</option>
+                <option value="8">18</option>
+                <option value="9">19</option>
+                <option value="10">20+</option>
+            </select>
+        </div>
+
+    
+        <!-- Message input -->
+        <!-- <div class="form-outline mb-4">
+        <textarea class="form-control" id="form4Example3" rows="4"></textarea>
+        <label class="form-label" for="form4Example3">Message</label>
+        </div> -->
+    
+        <!-- Submit button -->
+        <button type="submit" class="btn btn-primary btn-block mb-4">Send</button>
+    </form>
+</div>
 <%- include('./partials/footer.ejs') %>

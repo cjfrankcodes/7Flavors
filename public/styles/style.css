@@ -149,9 +149,37 @@ body{
     background-color: white !important;
 }
 
-
-
 /* Gallery CSS End */
+
+/* Form CSS Start */
+
+.form-container{
+    margin-top: 4vh;
+    margin-left: 35vw;
+    width: 20vw;
+}
+
+/* .form-label{
+    margin-left: 26px;
+} */
+
+.text-input{
+    width: 30vw;
+}
+
+.select-container{
+    width: 30vw;
+    margin-bottom: 0px !important;
+}
+
+.date-picker{
+    width: 30vw;
+}
+
+.service-selector{
+    width: 30vw;
+}
+/* Form CSS End */
 
 /* About CSS Start */
 
