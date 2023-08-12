@@ -137,6 +137,13 @@ body{
     color: #9A3737;
   }
 
+  /* .text-body-secondary{
+    width: 80vw;
+    margin-left: 10vw;
+  } */
+
+
+
 /* Home CSS End */
 
 /* Gallery CSS Start */
@@ -159,10 +166,6 @@ body{
     width: 20vw;
 }
 
-/* .form-label{
-    margin-left: 26px;
-} */
-
 .text-input{
     width: 30vw;
 }
@@ -179,6 +182,20 @@ body{
 .service-selector{
     width: 30vw;
 }
+
+.form-submit-button{
+    background-color: #9A3737;
+    color: white;
+    letter-spacing: 2px;
+    border-color: white;
+}
+
+.form-submit-button:hover{
+    background-color: white;
+    color: #9A3737;
+    border-color: #9A3737;
+}
+
 /* Form CSS End */
 
 /* About CSS Start */
