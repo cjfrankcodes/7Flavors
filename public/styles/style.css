@@ -250,6 +250,39 @@ body{
 }
 
 /* About CSS End */
+
+/* Menu CSS Start */
+    .menu-bg{
+        height: 80vh;
+        width: 100vw;
+        background-color: #9A3737;
+    }
+
+    .menu-brunch{
+        height: 80vh;
+        width: 100vw;
+        background-image: url("../imgs/menu-brunch.svg");
+        background-repeat: no-repeat;
+        background-size: 100vw 80vh;
+    }
+
+    .menu-dinner{
+        height: 80vh;
+        width: 100vw;
+        background-image: url("../imgs/infused-menu.svg");
+        background-repeat: no-repeat;
+        background-size: 100vw 80vh;
+    }
+    
+    .menu-420{
+        height: 80vh;
+        width: 100vw;
+        background-image: url("../imgs/infused-menu.svg");
+        background-repeat: no-repeat;
+        background-size: 100vw 80vh;
+    }
+/* Menu CSS End */
+
 @media (max-width:430px){
     .ml-100{
         margin-left: 25vw;
@@ -331,4 +364,35 @@ body{
         width: 25vw !important;
     }
     /* About Media Settings End */
+
+    /* Menu Media Settings Start */
+
+    .menu-420{
+        height: 80vh;
+        background-image: url("../imgs/infused-menu-mobile.svg");
+        background-repeat: no-repeat;
+        background-size: 100vw 80vh;
+    }
+
+    .menu-dinner{
+        height: 80vh;
+        background-image: url("../imgs/infused-menu-mobile.svg");
+        background-repeat: no-repeat;
+        background-size: 100vw 80vh;
+    }
+
+    .menu-brunch{
+        height: 80vh;
+        background-image: url("../imgs/infused-menu-mobile.svg");
+        background-repeat: no-repeat;
+        background-size: 100vw 80vh;
+    }
+
+    .menu-bg{
+        height: 90vh;
+        width: 100vw;
+        background-color: #9A3737;
+    }
+
+    /* Menu Media Settings End */
 }
