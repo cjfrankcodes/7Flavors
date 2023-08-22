@@ -253,6 +253,22 @@ body{
 
 /* About CSS End */
 
+/* FAQ Start */
+.faq-bg{
+    height: 100vh;
+    width: 100vw;
+    background-color: #9A3737;
+}
+
+.faq{
+    height: 100vh;
+    width: 100vw;
+    background-image: url("../imgs/FAQWS.svg");
+    background-repeat: no-repeat;
+    background-size: 100vw 100vh;
+}
+/* FAQ End */
+
 /* Menu CSS Start */
     .menu-bg{
         height: 100vh;
@@ -366,6 +382,20 @@ body{
         width: 25vw !important;
     }
     /* About Media Settings End */
+
+    /* FAQ Media Settings Start */
+
+    .faq{
+        background-image: url("../imgs/FAQ\ Mobile.svg");
+        height: 1000px;
+        background-size: 100vw 1000px;
+    }
+
+    .faq-bg{
+        height: 0px;
+    }
+
+    /* FAQ Media Settings End */
 
     /* Menu Media Settings Start */
 
